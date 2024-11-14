@@ -1,3 +1,4 @@
+<!--Página de inicio de sesión-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,11 +9,44 @@
      <!--Info de suscripción del usuario o beneficios-->
 </head>
 <body>
+    <nav>
+        <ul>
+            <li> <a href="./pages/registro.html">Registrate</a></li>
+            <li><a href="/about">Saber Más</a></li>
+            <li><a href=".pages/ejemplos.html">Conoce IA's</a></li>
+            <li><a href=".pages/experiencias.html">Lee sobre experiencias</a></li>
+            <li><a href="../index.html">⬅️ Regresar a página principal</a></li>
+        </ul>
+    </nav>
     <h2>Bienvenido usuario</h2>
-    <a href="../index.html">⬅️ Regresar a página principal</a>
+    
+
+    <form action="/login" method="POST">
+        <div>
+            <label for="username">Nombre de usuario:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div>
+            <button type="submit">Iniciar Sesión</button>
+        </div>
+    </form>
+    <p>¿No tienes una cuenta? <a href="registro.html">Regístrate aquí</a></p>
 
 </body>
 <footer>
-        <a href="https://chatgpt.com">ChatGPT</a>
+    <p>&copy; 2024 IA para Todos. Todos los derechos reservados.</p>
+    <nav>
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        </ul>
+    </nav>
 </footer>
 </html>
