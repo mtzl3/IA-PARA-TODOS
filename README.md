@@ -5,7 +5,7 @@
 ## 📝 Contenido
 - **Introducción a la IA**: Conceptos básicos explicados de manera simple.
 - **Ejemplos interactivos**: Prueba aplicaciones de IA como chatbots y generadores de texto.
-- **Noticias y Novedades**: Lo último sobre avances en IA.
+- **Explicación de conceptos básicos para principiantes y experiencias en su uso**
 
 ## 🛠️ Tecnologías
 - **HTML**: Diseño del sitio web.
